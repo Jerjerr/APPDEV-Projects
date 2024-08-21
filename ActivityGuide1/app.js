@@ -36,26 +36,7 @@ btn1.addEventListener("click", () => {
         let dis3 = `The distance that the car will travel in 12 hours is: ${distance3}miles.`
         document.getElementById("output3b").innerHTML = dis3
     })
-    /*
-    btn3.addEventListener("click",() =>{
-        let distance1 = 60 * 5 
-        let dis1 = `The distance that the car will travel in 5 hours is: ${distance1}miles.`
-        document.getElementById("output3").innerHTML = dis1
-    })
-    
-   
-    btn3a.addEventListener("click",() =>{
-        let distance2 = 60 * 8
-        let dis1 = `The distance that the car will travel in 8 hours is: ${distance2}miles.`
-        document.getElementById("output3").innerHTML = dis1
-    })
 
-    btn3b.addEventListener("click",() =>{
-        let distance3 = 60 * 12
-        let dis1 = `The distance that the car will travel in 12 hours is: ${distance3}miles.`
-        document.getElementById("output3").innerHTML = dis1
-    })
-    */
     //Item4
     btn4.addEventListener("click",() =>{
         let miles = document.getElementById("miles").value
