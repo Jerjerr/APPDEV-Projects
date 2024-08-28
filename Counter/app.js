@@ -17,7 +17,7 @@ btns.forEach((btn) => {
         }else if(styles.contains('decrease5')){
             count -=5
         }else if(styles.contains('random')){
-            let x =  Math.floor((Math.random()*(100 - (-100) +1))+(-100));
+            let x =  Math.floor((Math.random()*(999 - (-999) +1))+(-999));
             count =x
         }else
             count = 0
