@@ -1,0 +1,81 @@
+/* home-about.css */
+
+/* Reset some default styles for both pages */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Body Styling */
+  body {
+    background-color: #f4f4f9; /* Light background for the entire page */
+    color: #333; /* Dark text color for readability */
+    font-size: 16px;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  /* Container to center content and add margin */
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Page Header Styles */
+  h1 {
+
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  
+  /* Styling for paragraph text */
+  p {
+    color: #555;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Homepage specific styles */
+  .home-page {
+    background-color: #ffffff; /* White background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* About page specific styles */
+  .about-page {
+    background-color: #e0e7ff; /* Light blue background */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Optional: Link Styling for navigation */
+  a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+  }
+  
+  /* Add margin for the footer if any */
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  

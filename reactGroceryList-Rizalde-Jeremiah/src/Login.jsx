@@ -18,6 +18,8 @@ export default function Login() {
         { id: 1, username: "customer", password: "customer", role: "customer" },
         { id: 2, username: "admin", password: "admin", role: "admin" },
         { id: 3, username: "customer2", password: "customer2", role: "customer" },
+        { id: 3, username: "1", password: "1", role: "customer" },
+
     ];
 
     // Boolean variable for logging in
@@ -47,7 +49,7 @@ export default function Login() {
         return (
             <div className="login-container"> {/* Apply the class here */}
                 <div className="login-form">
-                    <h1>Login:</h1>
+                    <center><h1>Login</h1></center>
                     Username: <input type="text" placeholder="username" onChange={getUsername} /><br />
                     Password: <input type="password" placeholder="password" onChange={getPassword} /><br />
                     <br/>

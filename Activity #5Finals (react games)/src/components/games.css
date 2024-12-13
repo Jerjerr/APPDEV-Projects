@@ -1,0 +1,41 @@
+/* games.css */
+
+/* Style for the list of games */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .game-item {
+    margin-bottom: 10px;
+  }
+  
+  .game-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .game-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  .game-button:active {
+    background-color: #004085;
+    transform: translateY(0);
+  }
+  
+  /* Optional: add spacing between each button */
+  .game-item + .game-item {
+    margin-top: 10px;
+  }
+  

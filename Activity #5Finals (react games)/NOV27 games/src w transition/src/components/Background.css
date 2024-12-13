@@ -1,0 +1,13 @@
+/* Background.css */
+.background-overlay {
+    position: fixed; /* Make the overlay cover the entire viewport */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-repeat: repeat; /* Make the image repeat */
+    background-size: auto; /* Adjust size as needed (auto, cover, contain, etc.) */
+    backdrop-filter: blur(6px); /* Adjust the blur amount as needed */
+    z-index: -1; /* Ensure it stays behind other content */
+    pointer-events: none; /* Allow clicks to pass through the overlay */
+}
